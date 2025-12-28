@@ -1,6 +1,8 @@
 package com.auth.JWT.controller;
 
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -8,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Endpoints {
 	
 	
-	@RequestMapping("/api/secured")
+	@GetMapping("/api/secured")
 	public ResponseEntity<String> securedFuction()
 	{
 		return ResponseEntity.ok().body("You have successfully accessed the secured endpoint!WOW (:");
