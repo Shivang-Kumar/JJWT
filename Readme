@@ -1,18 +1,13 @@
-That’s a great idea! A clear README is the difference between a repo that stays hidden and one that people actually use (and star). Since you're covering two different security paradigms, it's helpful to compare them and explain the flow of each.
+Overview: 
 
-Here is a structured template you can copy and adapt for your project.
-
-Spring Boot Security: Basic vs. JWT Authentication
-This project demonstrates two common ways to secure a Spring Boot application: Basic Authentication (for simple, stateful/stateless access) and JSON Web Token (JWT) Authentication (for modern, stateless, and scalable security).
-
-🚀 Overview
 The goal of this repository is to show the implementation details of:
 
 Basic Auth: Sending credentials in the request header.
 
 JWT Auth: Authenticating once to receive a token, then using that token for subsequent requests.
 
-🔐 Authentication Methods
+Authentication Methods:
+
 1. Basic Authentication
 The simplest form of security. The client sends a username and password encoded in Base64 in every request.
 
